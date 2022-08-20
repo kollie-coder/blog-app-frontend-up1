@@ -52,10 +52,15 @@ export default function Sidebar() {
      <div className="sidebarItem">
      <span className="sidebarTitle">FOLLOW US</span>  
      <div className="sidebarSocial">
-     <i className="sidebarIcon fa-brands fa-facebook-square"></i>
-       <i className="sidebarIcon fa-brands fa-twitter-square"></i>
-       <i className="sidebarIcon fa-brands fa-pinterest-square"></i>
-       <i className="sidebarIcon fa-brands fa-instagram-square"></i>
+     <a href="https://web.facebook.com/kolawole.apotiola">
+        <i className="topIcon fa-brands fa-facebook-square"></i>
+        </a>
+       <a href="https://twitter.com/Kollie35694474">
+         <i className="topIcon fa-brands fa-twitter-square"></i>
+         </a>
+       <a href="https://www.instagram.com/i_am_kollie/">
+         <i className="topIcon fa-brands fa-instagram-square"></i>
+         </a>
      </div>
      </div>
      </div>
